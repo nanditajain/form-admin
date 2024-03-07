@@ -1,0 +1,30 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+/* Width and height of the scrollbar track */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+/* Background color of the scrollbar track */
+::-webkit-scrollbar-track {
+  background-color: #e2e0e0;
+  border-radius: 1pc;
+}
+
+/* Color of the scrollbar thumb */
+::-webkit-scrollbar-thumb {
+  background-color: #3b82f6;
+  border-radius: 1pc;
+}
+
+/* On hover, color of the scrollbar thumb */
+::-webkit-scrollbar-thumb:hover {
+  background-color: #3b82f6;
+  border-radius: 1pc;
+}
+
+.hhh{    margin: 5px;
+    font-size: small;}
